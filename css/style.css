@@ -1,0 +1,35 @@
+body {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+.mainContainer {
+  background: #f7f7f7;
+  width: 75vw;
+  margin: 0 auto;
+  min-height: 200px;
+  border-top: 40px solid #eaeaea;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+/*   display: block; */
+}
+li {
+  text-align: center;
+  background: blue;
+  color: white;
+  font-size: 1.2em;
+  width: 35vw;
+  margin: 0px auto;
+  padding: 10px;
+  border-bottom: 1px solid white;
+}
+
+input {
+  padding: 10px;
+  background: blue;
+  color: white;
+  font-size: 1.5em;
+  width: 35vw;
+}

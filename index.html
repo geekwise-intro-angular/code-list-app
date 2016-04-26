@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Code List App</title>
+    
+    
+    
+    
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <div class="mainContainer" 
+     ng-app="codeList"
+     ng-controller="code.list">
+  <h1 class="title">{{title}}</h1>
+  <input type="text" ng-model="inputFilter"/>
+  <ul >
+    <li ng-repeat="boom in list | filter: inputFilter | orderBy: alpha">
+      {{boom.code}}</li>
+  </ul>
+
+</div>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.2/angular.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
